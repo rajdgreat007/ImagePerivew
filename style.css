@@ -18,9 +18,9 @@
     border: 1px solid #E7E7E7;
 }
 
-.innerContainer li img {
-    display: block;
+.innerContainer li .imgLink {
     padding: 10px;
+    cursor: pointer;
 }
 #bigLi{
     width: 944px;
@@ -29,14 +29,17 @@
     width : 770px;
     float: left;
     height: 300px;
+    margin-left: 35px;
 }
 
 #prev{
     float: left;
     margin-top: 115px;
+    cursor: pointer;
 }
 
 #next{
     float: right;
     margin-top: 115px;
+    cursor: pointer;
 }
